@@ -42,21 +42,11 @@ export default function Hero() {
           I build AI-powered products — agentic systems, multi-modal pipelines, and production software that puts AI to work.
         </motion.p>
 
-        <motion.p
-          variants={fadeInUp}
-          initial="hidden"
-          animate="visible"
-          transition={{ delay: 0.3 }}
-          className="text-cyan-400/70 text-sm mb-10 font-mono"
-        >
-          Seeking Software Engineer / AI Engineer roles
-        </motion.p>
-
         <motion.div
           variants={fadeInUp}
           initial="hidden"
           animate="visible"
-          transition={{ delay: 0.4 }}
+          transition={{ delay: 0.3 }}
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <a

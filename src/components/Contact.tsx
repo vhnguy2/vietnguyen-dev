@@ -62,18 +62,9 @@ export default function Contact() {
 
         <motion.p
           variants={fadeInUp}
-          className="text-zinc-400 text-lg mb-3"
+          className="text-zinc-400 text-lg mb-10"
         >
-          Looking for an engineer with hands-on AI product experience?
-          I&apos;m ready to bring that to your team.
-        </motion.p>
-
-        <motion.p
-          variants={fadeInUp}
-          className="inline-flex items-center gap-2 text-sm text-emerald-400 font-mono mb-10"
-        >
-          <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-          Available for full-time remote roles
+          Have a project in mind? I&apos;d love to hear about it.
         </motion.p>
 
         <motion.div
